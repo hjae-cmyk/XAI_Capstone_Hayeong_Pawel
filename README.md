@@ -1,3 +1,4 @@
+cat > README.md << 'EOF'
 # Insurance Premium Prediction with Explainable AI (XAI)
 
 ## Project Overview
@@ -76,48 +77,9 @@ jupyter lab
 
 ---
 
-## Team
-- Hayeong Jae: Regression and XAI Analysis
-- Pawel: Classification
-
----
-
-## References
-
- 
-
-[200~- SHAP (bar, beeswarm, waterfall) - Global and local feature importance
-- LIME - Local approximation of black-box model
-- PDP - Feature effect on predictions
-- Permutation Importance - Feature importance via permutation
-
-Bonus Method:
-- Counterfactual Explanation - What-if scenario analysis
-
----
-
-## Key Findings
-1. Smoking is the most dominant factor, raising premiums by 3.8x
-2. Age and BMI are significant health-based risk factors
-3. Sex and Region have near-zero impact on premiums
-4. A smoker could save up to $14,681/year by quitting smoking
-
----
-
-## How to Run
-
-git clone https://github.com/hjae-cmyk/XAI_Capstone_Hayeong_Pawel.git
-cd XAI_Capstone_Hayeong_Pawel
-python -m venv venv
-source venv/Scripts/activate
-pip install -r requirements.txt
-jupyter lab
-
----
-
-## Team
-- Hayeong Jae: Regression and XAI Analysis
-- Pawel: Classification
+## Team part devision
+- Hayeong Jae: Regression and XAI Analysis and explain about that to Pawel.
+- Pawel: Classification and explain about that to Hayeong.
 
 ---
 
@@ -126,6 +88,4 @@ jupyter lab
 - Ribeiro et al. (2016) - LIME
 - Friedman (2001) - PDP
 - Wachter et al. (2017) - Counterfactual Explanations
-EOF~
-
-
+EOF
