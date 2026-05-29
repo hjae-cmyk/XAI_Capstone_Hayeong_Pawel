@@ -6,7 +6,10 @@ This project applies machine learning and Explainable AI (XAI) techniques to pre
 
 Key Business Question:
 "Is the AI model making fair insurance pricing decisions? Are premiums driven by actual health risk factors, or by uncontrollable characteristics like gender and region?"
+---
 
+## Presentation Material Canva Link
+https://canva.link/6vt385ti6a06ewl
 ---
 
 ## Repository Structure
