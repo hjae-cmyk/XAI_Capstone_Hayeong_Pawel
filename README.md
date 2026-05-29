@@ -88,6 +88,7 @@ jupyter lab
 
 ### Paweł
 - Classification modeling and XAI analysis
+- Full XAI analysis (SHAP, LIME, PDP, Permutation Importance, Counterfactual)
 - Explained classification findings to Hayeong
 
 ---
