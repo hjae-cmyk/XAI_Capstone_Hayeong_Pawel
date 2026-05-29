@@ -6,7 +6,10 @@ This project applies machine learning and Explainable AI (XAI) techniques to pre
 
 Key Business Question:
 "Is the AI model making fair insurance pricing decisions? Are premiums driven by actual health risk factors, or by uncontrollable characteristics like gender and region?"
+---
 
+## Presentation Material Canva Link
+https://canva.link/6vt385ti6a06ewl
 ---
 
 ## Repository Structure
@@ -75,14 +78,31 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 jupyter lab
 
----
-
-## Team part devision
-- Hayeong Jae: Regression and XAI Analysis and explain about that to Pawel.
-- Pawel: Classification and explain about that to Hayeong.
 
 ---
 
+## Team Work Distribution
+
+### Hayeong Jae
+- Regression modeling (XGBoost, hyperparameter tuning)
+- Full XAI analysis (SHAP, LIME, PDP, Permutation Importance, Counterfactual)
+- Repository setup and structure
+- Explained regression findings and XAI results to Paweł
+
+### Paweł
+- Classification modeling and XAI analysis
+- Full XAI analysis (SHAP, LIME, PDP, Permutation Importance, Counterfactual)
+- Explained classification findings to Hayeong
+
+---
+
+## AI Tools Usage
+
+The following AI tools were used as assistants during this project:
+- **GitHub Copilot**: used for code debugging, error message interpretation and suggesting fixes for issues.
+- **Claude (Anthropic)**: used for Git Bash command corrections and README structure
+
+---
 ## References
 - Lundberg et al. (2017) - SHAP
 - Ribeiro et al. (2016) - LIME
