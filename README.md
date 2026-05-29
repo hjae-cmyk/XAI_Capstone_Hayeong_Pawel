@@ -14,16 +14,30 @@ https://canva.link/6vt385ti6a06ewl
 
 ## Repository Structure
 
-Capstone/
-├── data/
-│   └── insurance.csv          
-├── models/
-│   ├── xgboost_model.joblib   
-│   └── feature_names.joblib   
-├── notebooks/
-│   ├── 01_eda.ipynb           
-│   ├── 02_modeling.ipynb      
-│   └── 03_xai.ipynb           
+XAI_Capstone_Hayeong_Pawel/
+├── classification/                
+│   ├── data/
+│   │   ├── raw/
+│   │   │   └── ai4i2020.csv
+│   │   └── processed/
+│   │       ├── train.csv
+│   │       ├── validation.csv
+│   │       └── test.csv
+│   ├── notebook/
+│   │   └── classification.ipynb
+│   ├── reports/
+│   │   └── figures/
+│   ├── README.md
+│   └── requirements.txt
+├── data/                          
+│   └── insurance.csv
+├── models/                       
+│   ├── xgboost_model.joblib
+│   └── feature_names.joblib
+├── notebooks/                    
+│   ├── 01_eda.ipynb
+│   ├── 02_modeling.ipynb
+│   └── 03_xai.ipynb
 ├── .gitignore
 ├── requirements.txt
 └── README.md
